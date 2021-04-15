@@ -1,0 +1,88 @@
+/* Estilos Generales */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Colores de texto */
+.text_blue {
+    color: rgb(99, 99, 99);
+}
+
+/* Colores de fondo */
+.bg-gray{
+    background-image: url("../Saved\ Pictures/pesashierro.jpg");
+    background-size: cover;
+    /*background-position-x: la_medida_en_x la_medida_en_y;*/
+    background-position-y: 30%;
+}
+
+.bg-white{
+    background-color: rgb(255, 249, 249);
+}
+
+/* contenedor del formulario */
+.form_container {
+    padding: 4rem;
+    width: 20%;
+    height:15rem;
+    /*border: <tipo de borde> <medida del borde> <color del borde>;*/
+    border: solid 0.1rem gray;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*box-shadow: <posicion en y> <posicion en x> <nivel de distorcion> <color>;*/
+    box-shadow: -11px 11px 10px rgb(0, 0, 0);
+}
+
+/* contenedor de los inputs*/
+.input_container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input_container input {
+    border-radius: 0.4 rem;
+    border: solid 0.1 rem gray;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+}
+
+/*contenedor checkbox*/
+.check_container{
+    margin-top: 0.7rem;
+  
+}
+
+.check_container_input{
+    margin-right: 0.3rem;
+}
+
+/*contenedor boton */
+.btn_container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 0.7rem;
+    background-color: brown;
+    border: 0px;
+    border-radius: o.3rem;
+    color: white;
+}
+
+.btn:hover{
+    background-color: orangered;
+    color: black
+}
+
+/*alineacion del formulario*/
+.screen-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
