@@ -11,7 +11,7 @@
 
 /* Colores de fondo */
 .bg-gray{
-    background-image: url("../Saved\ Pictures/pesashierro.jpg");
+    background-image: url("../savedPictures/pesashierro.jpg");
     background-size: cover;
     /*background-position-x: la_medida_en_x la_medida_en_y;*/
     background-position-y: 30%;
